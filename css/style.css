@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+
+/*  */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+
+    width: 960px;
+    margin: auto;
+}
+
+/* Header */
+
+header {
+
+    background-image: url(../images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000040;
+    background-blend-mode: multiply;
+    padding: 15px 0px;
+
+}
+
+.flex {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    width: 20%;
+    flex-basis: 20%;
+
+}
+
+.logo h2 {
+
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.logo h2 span {
+    font-size: 15px;
+    font-weight: 100;
+    display: block;
+}
+
+nav {
+    width: 80%;
+    flex-basis: 80%;
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 7px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 2px solid #fff0;
+    border-radius: 25px;
+}
+
+/* Banner */
+
+.banner-content {
+    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.banner-content h3 {
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.banner-content span {
+
+    width: 100px;
+    height: 5px;
+    display: block;
+    background: red;
+    margin: 20px auto 30px;
+}
+
+.banner-content h1 {
+
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+}
+
+.banner-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    display: inline-block;
+    background: red;
+    margin: 30px 0 0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.event {
+    padding: 70px 0;
+    margin: auto;
+}
+
+.event h2 {
+    color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.event span {
+
+    width: 100px;
+    height: 5px;
+    display: block;
+    background: red;
+    margin: 20px auto 30px;
+
+
+}
+
+/* Feaure */
+
+.feature {}
+
+.col1 {
+    width: 50%;
+    flex-basis: 50%;
+    padding: 0 35px;
+    text-align: center;
+}
+
+.col1 img {
+
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 1px #b5b0b085;
+    padding: 30px 0 10px;
+}
+
+.col1 h2 {
+
+    color: #060606e3;
+    padding: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.col1 p {
+
+    font-size: #0e0e0e;
+}
+
+.col1 a {
+
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 15px auto 0;
+    display: inline-block;
+    font-weight: 600;
+}
