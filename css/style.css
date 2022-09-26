@@ -25,7 +25,7 @@ img {
 
 .container {
 
-    width: 960px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -208,4 +208,128 @@ nav ul li a {
     margin: 15px auto 0;
     display: inline-block;
     font-weight: 600;
+}
+
+/* Explore section */
+
+.explore-section {
+
+    margin: 50px 0;
+
+    padding: 220px 0;
+
+    background-image: url(../images/father.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-blend-mode: multiply;
+    background-color: #0000ff8c;
+}
+
+.explore-section h2 {
+
+    color: white;
+    font-size: 60px;
+
+}
+
+.explore-section span {
+    width: 100px;
+    height: 5px;
+    display: block;
+    background: red;
+    margin: 15px 0;
+}
+
+.explore-section p {
+    font-size: 17px;
+    color: white;
+    margin: 50px 0 26px 0;
+}
+
+.explore-section a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.explore {
+    display: flex;
+    justify-content: end;
+}
+
+.sub-explore {
+
+    width: 50%;
+}
+
+.picture-section {
+    padding: 100px 0;
+}
+
+.box {
+    width: 33.33%;
+
+}
+
+.box-item {
+    padding: 20px;
+}
+
+.box-item span {
+    width: 150px;
+    height: 5px;
+    display: block;
+    background: red;
+    margin: 15px 0;
+}
+
+.box-item p {
+
+    font-size: 17px;
+
+    margin: 40px 0 20px;
+
+}
+
+.box-item h3 {
+
+    font-size: 35px;
+}
+
+.box-item a {
+
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.small-photo {
+
+    height: 300px;
+    object-fit: cover;
+    margin: 0 0 33px 0;
+}
+
+.large-photo {
+
+    height: 500px;
+    object-fit: cover;
+    margin: 0 0 33px 0;
+}
+
+
+footer {
+
+    padding: 100px 0;
+    background-color: tomato;
+
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+footer h4 {
+    margin: 20px;
 }
